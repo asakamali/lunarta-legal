@@ -93,6 +93,44 @@ p, li {
   font-size: 14px;
 }
 
+.person {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: var(--forest);
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.person h2 {
+  margin-top: 0;
+  margin-bottom: 2px;
+  font-size: 17px;
+}
+
+.person .role {
+  color: var(--text-secondary);
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.note {
+  font-size: 13px;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
 .notice {
   background: #fff3e0;
   border: 1px solid #ffd599;
