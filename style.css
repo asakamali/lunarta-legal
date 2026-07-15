@@ -31,19 +31,6 @@ body {
   margin-bottom: 32px;
 }
 
-.brand .mark {
-  width: 32px;
-  height: 32px;
-  border-radius: 9px;
-  background: var(--forest);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-weight: 700;
-  flex-shrink: 0;
-}
-
 .brand a {
   font-weight: 700;
   font-size: 18px;
